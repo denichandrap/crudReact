@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../../assets/img/logo.svg';
+import './Home.css';
 
-function App() {
+function Home () {
+  console.log('asdasdasd');
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+
           Learn React
         </a>
       </header>
@@ -23,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
