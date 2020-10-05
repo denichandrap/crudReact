@@ -1,9 +1,9 @@
-import React from 'react';
-import logo from '../../assets/img/logo.svg';
-import './Home.css';
+import React from 'react'
+import logo from '../../assets/img/logo.svg'
+import './Home.css'
 
 function Home () {
-  console.log('asdasdasd');
+  // console.log("asdasdasd");
   return (
     <div className="App">
       <header className="App-header">
@@ -22,7 +22,7 @@ function Home () {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home
